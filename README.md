@@ -28,7 +28,8 @@ repository. Five open-source example cases are included to try it on first.
 
 No programming required. The product's source code is read and never changed. 
 
-In the Claude desktop app: **Settings**, **Plugins**, **Add**, **Add marketplace**, **Add from
+In the Claude desktop app: 
+**Settings**, **Plugins**, **Add**, **Add marketplace**, **Add from
 a repo**, paste `https://github.com/niancilyu-2/nlyu-pm`, then install **nlyu-pm**. 
 
 In a terminal:
