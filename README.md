@@ -24,15 +24,14 @@ PRD, grounded in the product's own code. No programming required.
 
 A Claude Code plugin that takes a product manager from public evidence to a selected
 opportunity, a clickable prototype, and an engineering-ready PRD, on your own project or
-repository. Five open-source example cases are included to try it on first. Claude finds, drafts,
-and challenges. The PM decides, and every stage records which was which.
+repository. Five open-source example cases are included to try it on first. 
 
-No programming required. The product's source code is read and never changed. One PM
-can run it alone, or a team can run it together.
+No programming required. The product's source code is read and never changed. 
 
 In the Claude desktop app: **Settings**, **Plugins**, **Add**, **Add marketplace**, **Add from
-a repo**, paste `https://github.com/niancilyu-2/nlyu-pm`, then install **nlyu-pm**. In a
-terminal:
+a repo**, paste `https://github.com/niancilyu-2/nlyu-pm`, then install **nlyu-pm**. 
+
+In a terminal:
 
 ```text
 /plugin marketplace add niancilyu-2/nlyu-pm
