@@ -34,7 +34,8 @@ the brief against the saved fetches and the code, and how each finding was settl
      `.pm/case/`, and shows it at a check-in. About fifteen minutes.
 3. **Choose the focus area, then orient.** Claude says what a focus area is (one part of
    the product you research for an hour and prototype as a single flow), one question
-   picks it, and research starts at once. Then Claude gives a short orientation: what the
+   picks it, each option saying in plain words where that part of the product is used
+   (in a browser on a laptop, in the phone app), and research starts at once. Then Claude gives a short orientation: what the
    product is, who you are designing for, and how the chosen focus area works in the
    product today, with every product term defined.
 4. **Get the code.** For an example case, a read-only, partial copy of the repository

@@ -90,8 +90,20 @@ For an example case, first say in one line what a lane is: a focus area, one par
 product you research for about an hour, choose one opportunity in, and prototype as a
 single flow; the screen you will prototype comes from it. Then ask for the lane: one
 question (header `Focus area`, "Which focus area do you want to work in?"), the three
-lanes from `lanes[]`, each described by its `surface` and the first sentence of its
-`territory` in plain words. Product and lane are never asked in one question. For BYOP the lane was chosen in `custom-case.md` Step E.
+lanes from `lanes[]`, each described by where it is used and the first sentence of its
+`territory` in plain words. Never show the raw `surface` value; translate it:
+
+| `surface` | Say |
+|---|---|
+| `desktop web` | in a browser on a laptop or desktop |
+| `mobile web` | in a phone's browser |
+| `tablet web` | in a tablet's browser |
+| `mobile app` | in the product's own phone app |
+| `desktop backoffice` | in the product's editing screen, in a browser on a laptop or desktop |
+| `terminal` | typed at a command line |
+| `api or library` | by other software, with no screen |
+
+Product and lane are never asked in one question. For BYOP the lane was chosen in `custom-case.md` Step E.
 Save `case.id`, `case.source`, `case.dir`, `case.lane`, and `case.chosen_at` to
 `session.yaml`.
 

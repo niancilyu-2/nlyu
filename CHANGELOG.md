@@ -5,6 +5,12 @@ All notable changes to the `nlyu-pm` plugin are recorded here. Bump `version` in
 whenever a changed build is distributed, otherwise existing installs will not refresh.
 Update the version line in the README banner at the same time.
 
+## 0.9.3 (2026-11-13)
+
+- The focus-area question says where each area is used in plain words ("in a browser on
+  a laptop or desktop", "in the product's own phone app") instead of the raw `surface`
+  value such as "desktop web".
+
 ## 0.9.2 (2026-10-31)
 
 - The example case list describes each product (first sentence of `product_summary`)
